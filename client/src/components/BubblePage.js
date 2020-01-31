@@ -14,16 +14,17 @@ const BubblePage = () => {
       .get('/api/colors')
       .then(res => {
         setColorList(res.data)
-        console.log(res.data)
       })
       .catch(err => console.log(err))
   }, colorList )
 
-  
+  const updateColors = e => {
+    setColorList(e);
+  }
   
   return (
     <>
-      <ColorList colors={colorList} updateColors={setColorList} />
+      <ColorList colors={colorList} updateColors={updateColors} />
       <Bubbles colors={colorList} />
     </>
   );

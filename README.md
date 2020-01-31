@@ -1,3 +1,4 @@
+
 # Sprint Challenge: Advanced Web Applications - React Bubbles
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Advanced Web Applications, focusing on testing, client-side authentication, hosting web apps, and PUT and DELETE requests.
@@ -27,9 +28,20 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+  Strings of text that are encrypted that the server can read and make decisions based on their content.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+  Use protected routes and tokens for checking authentication.
+
 - [ ] Describe how web servers work.
+
+  The server recieves information from the browser then responds with data based on the request from the browser. A web server is basically a big question machine that will answer your question, but only if you have the correct information and ask the right way.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  Create: Post, Read: Get, Update: Put, Delete: Delete
 
 
 ## Project Set Up
